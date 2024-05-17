@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: #fff3ff;
+    border-radius: 10px;
+   max-width: 100%;
+    width: 700px;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);;
+}
+h3{
+    margin: 0;
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+.joke{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.btn{
+    background-color: blueviolet;
+    color: #fff3ff;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 14px;
+    margin-top: 20px;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
